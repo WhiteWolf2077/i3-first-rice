@@ -320,7 +320,7 @@ exec --no-startup-id "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
 exec --no-startup-id xss-lock -- betterlockscreen -l dim
 exec --no-startup-id unclutter --fork --exclude-root --jitter 20 --ignore-scrolling --timeout 5
 exec --no-startup-id keynav daemonize
-exec --no-startup-id "blueman-applet"
+
 exec_always --no-startup-id $HOME/.config/i3/polybar.sh
 
 bindsym $mod+End [urgent=latest] focus
